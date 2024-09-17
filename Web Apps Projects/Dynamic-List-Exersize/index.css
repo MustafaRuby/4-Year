@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(to top left, red, blue);
+    background-attachment: fixed; 
+}
+
+.first-block{
+    margin: 40px;
+    border: 5px solid white;
+    padding: 20px;
+}
+.first-title{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+
+.ready-list-create{
+    background-image: linear-gradient(to top left, rgb(172, 3, 3), rgb(41, 41, 255));
+    padding: 10px;
+    color: antiquewhite;
+    border: 6px solid antiquewhite;
+    font-size: 30px;
+    border-radius: 1000px;
+    cursor: pointer;
+    height: 70px;
+    margin: 30px;
+    margin-left: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+.ready-list-create:hover{
+    color: rgb(0, 140, 255);
+    background-image: linear-gradient(black, black);
+    border: 6px solid white;
+    box-shadow: 0 0 90px 20px rgb(0, 247, 255);
+}
+
+.ready-list-create:active{
+    background-image: linear-gradient(to top left, rgb(56, 56, 56), rgb(56, 56, 56));
+}
+
+
+.ready-list{
+    font-size: 40px; 
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+li{
+    margin: 20px;
+}
+
+.input-box{
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 7px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(84, 84, 84);
+    font-family: 'Times New Roman';
+}
+
+.second-title{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+
+.box-label {
+    padding: 10px;
+    font-weight: bold;
+    color: red;
+    font-size: 50px;
+}

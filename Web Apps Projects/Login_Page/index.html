@@ -1,0 +1,63 @@
+
+<html>
+
+<head>
+    <link rel = "stylesheet" href="main.css">
+    <title>Log-in page</title>
+</head>
+
+<body>
+    
+</body>
+    <h1>Log-in page</h1>
+
+    <div style="text-align: center; ">
+        <form>
+            <p class="label">Name & Surname</p>
+            <input type="text" class="name" placeholder="Name" id = "name">
+
+            <p class="label">Age</p>
+            <input type="number" class="age" placeholder="Age">
+            
+            <p class="label">Gender</p>
+
+            <input type="radio" id = "male" class="gender" name = "gender" value="Male">
+            <label for="male" class="male-button">Male</label>
+            <br>
+            <input type="radio" id = "female" class="gender" name = "gender" value="Female">
+            <label for="female" class="male-button">Female</label>
+
+            <p class="label">Practiced Sport</p>
+            <input type="checkbox" class="sport-box" id = "football" value="Football">
+            <label for="football" class="sport-label">Football</label>
+            <br>
+            <input type="checkbox" class="sport-box" id = "basketball" value="Basketball">
+            <label for="basketball" class="sport-label">Basketball</label>
+            <br>
+            <input type="checkbox" class="sport-box" id = "tennis" value="Tennis">
+            <label for="tennis" class="sport-label">Tennis</label>
+            <br>
+            <input type="checkbox" class="sport-box" id = "fencing" value="Fencing">
+            <label for="fencing" class="sport-label">Fencing</label>
+            <br>
+            <input type="checkbox" class="sport-box" id = "archery" value="Archery">
+            <label for="archery" class="sport-label">Archery</label>
+
+            <p class="label">Gmail</p>
+            <input type="email" class="email" placeholder="example@gmail.com" id = "email">
+
+            <p class="label">Password</p>
+            <input type="password" class="email" placeholder = "password" id = "password">
+            <br><br><br>
+        </form>
+        
+        <button style="font-size: 25px; width: 300px; height: 50px;" onclick="login_data()">Click me</button> <br><br><br><br>
+        <hr>
+        <p style="font-size: 40px; font-weight: bolder;">Confirm data</p>
+        <p id = "data-reporting" class = "data-reporting"></p> 
+    </div>
+    
+
+    <script type="text/javascript" src="login_data.js"></script>
+    
+</html>
